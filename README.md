@@ -1,6 +1,8 @@
 # secret-sauce
 
-A fun project demonstrating how to securely work with secret keys while allowing parts of the key to be shared or accessed publicly.
+A fun project demonstrating how to securely store a secret key using a password and a public key.
+
+[website](https://pedrobern.github.io/secret-sauce/)
 
 ## Prerequisites
 
