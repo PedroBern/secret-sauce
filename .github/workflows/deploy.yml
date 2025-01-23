@@ -38,7 +38,7 @@ jobs:
         run: yarn test
 
       - name: Build
-        run: yarn build --public-url /${{ github.repository }}
+        run: yarn build --public-url /${{ github.event.repository.name }}
         env:
           PUBLICKEY: ${{ secrets.PUBLICKEY }}
 
